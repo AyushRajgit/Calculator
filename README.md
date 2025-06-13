@@ -6,7 +6,7 @@ A simple, responsive, and user-friendly calculator built using HTML, CSS, and Ja
 
 ## 🚀 Live Demo
 
-🔗 [Click here to try the app](https://your-deployed-link.vercel.app)
+🔗 [Click here to try the app](https://calculator-silk-nu-17.vercel.app/)
 
 ---
 
@@ -25,9 +25,5 @@ A simple, responsive, and user-friendly calculator built using HTML, CSS, and Ja
 ## 🛠️ Tech Stack
 
 - **Frontend:** HTML5, CSS3, JavaScript
-- **Deployment:** Vercel / GitHub Pages / Netlify
-
----
-
-## 📂 Folder Structure
+- **Deployment:** Vercel
 
