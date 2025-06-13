@@ -27,3 +27,11 @@ A simple, responsive, and user-friendly calculator built using HTML, CSS, and Ja
 - **Frontend:** HTML5, CSS3, JavaScript
 - **Deployment:** Vercel
 
+---
+
+## ScreenShot
+
+![Screenshot (17)](https://github.com/user-attachments/assets/5f8babba-9362-4212-9626-950d85918030)
+
+![Screenshot (18)](https://github.com/user-attachments/assets/25d9cf25-4d7c-4930-8a7d-4238ba4f715b)
+
