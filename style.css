@@ -1,0 +1,99 @@
+body {
+    background-color: black;
+}
+
+.CalcBox {
+    background-color: grey;
+    border-radius: 10px;
+    width: 30rem;
+    height: 40rem;
+    margin: auto;
+    margin-top: 2.6rem;
+    margin-bottom: 7rem;
+}
+
+.Calculator {
+    color: rgb(47, 255, 64);
+    text-align: center;
+}
+
+.Display_Screen {
+    height: 10rem;
+    width: 29rem;
+    background-color: black;
+    border-radius: 10px;
+    margin-top: 8px;
+    margin-right: 4.4px;
+    margin-left: 4.4px;
+    border-color: antiquewhite;
+    color: #63ff2f;
+    font-size: 45px;
+}
+
+.OperBtn {
+    margin-left: 6px;
+    margin-top: 0.7rem;
+    background-color: black;
+    border-radius: 7px;
+    height: 4.6rem;
+    width: 7rem;
+    color: rgb(22, 222, 62);
+    text-align: center;
+    font-size: 30px;
+    border-color: antiquewhite;
+}
+
+/* ========================
+   Responsive Media Queries
+   ======================== */
+
+/* Mobile Devices */
+@media screen and (max-width: 600px) {
+    .CalcBox {
+        width: 90%;
+        height: auto;
+        padding-bottom: 1rem;
+    }
+
+    .Display_Screen {
+        width: 90%;
+        height: 6rem;
+        font-size: 30px;
+    }
+
+    .OperBtn {
+        width: 4.5rem;
+        height: 3.5rem;
+        font-size: 22px;
+        margin-left: 4px;
+    }
+
+    .Calculator {
+        font-size: 1.8rem;
+        margin-top: 1rem;
+    }
+}
+
+/* Tablets */
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+    .CalcBox {
+        width: 25rem;
+        height: 36rem;
+    }
+
+    .Display_Screen {
+        width: 24rem;
+        height: 8rem;
+        font-size: 38px;
+    }
+
+    .OperBtn {
+        width: 5.5rem;
+        height: 4rem;
+        font-size: 26px;
+    }
+
+    .Calculator {
+        font-size: 2.2rem;
+    }
+}

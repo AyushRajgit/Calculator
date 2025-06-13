@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class = "Calculator">Calculator</h1>
+    <div class = "CalcBox">
+
+        <table>
+            <thead>
+               <tr>
+                <input type="text" class = "Display_Screen">
+               </tr>
+               <br>
+            </thead>
+
+            <tbody>
+                <tr>
+                   <input type="button" value="C" class = "OperBtn" onclick="Clear()">
+                   <input type="button" value="%" class = "OperBtn" onclick="appendValue('%')">
+                   <input type="button" value="/" class = "OperBtn" onclick="appendValue('/')">
+                   <input type="button" value="*" class = "OperBtn" onclick="appendValue('*')">
+                </tr>
+
+                <br>
+
+                <tr>
+                   <input type="button" value="7" class = "OperBtn" onclick="appendValue('7')">
+                   <input type="button" value="8" class = "OperBtn" onclick="appendValue('8')">
+                   <input type="button" value="9" class = "OperBtn" onclick="appendValue('9')">
+                   <input type="button" value="-" class = "OperBtn" onclick="appendValue('-')">
+                </tr>
+
+                <br>
+
+                <tr>
+                    <input type="button" value="4" class = "OperBtn" onclick="appendValue('4')">
+                    <input type="button" value="5" class = "OperBtn" onclick="appendValue('5')">
+                    <input type="button" value="6" class = "OperBtn" onclick="appendValue('6')">
+                    <input type="button" value="+" class = "OperBtn" onclick="appendValue('+')">
+                 </tr>
+
+                 <br>
+
+                 <tr>
+                    <input type="button" value="1" class = "OperBtn" onclick="appendValue('1')">
+                    <input type="button" value="2" class = "OperBtn" onclick="appendValue('2')">
+                    <input type="button" value="3" class = "OperBtn" onclick="appendValue('3')">
+                    <input type="button" value="=" class = "OperBtn" onclick="Calculate('=')">
+                 </tr>
+
+                 <tr>
+                    <input type="button" value="0" class = "OperBtn" onclick="appendValue('0')">
+                    <input type="button" value="." class = "OperBtn" onclick="appendValue('.')">
+                    <input type="button" value="(" class = "OperBtn" onclick="appendValue('(')">
+                    <input type="button" value=")" class = "OperBtn" onclick="appendValue(')')">
+                 </tr>
+            </tbody>
+        </table>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
