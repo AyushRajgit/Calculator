@@ -92,9 +92,7 @@ body {
 
 /* ===== Button Grid Layout ===== */
 .button-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 0.5rem;
+    display: block;
     padding: 1rem;
     margin-top: 1rem;
 }
@@ -132,15 +130,16 @@ body {
     }
     
     .OperBtn {
-        width: 100%;
+        width: 3.5rem;
         height: 3rem;
         font-size: 16px;
-        margin: 0;
+        margin-left: 3px;
+        margin-top: 0.5rem;
         border-radius: 5px;
     }
     
     .button-grid {
-        gap: 0.3rem;
+        display: block;
         padding: 0.5rem;
     }
 }
@@ -168,14 +167,15 @@ body {
     }
     
     .OperBtn {
-        width: 100%;
+        width: 4rem;
         height: 3.2rem;
         font-size: 18px;
-        margin: 0;
+        margin-left: 4px;
+        margin-top: 0.5rem;
     }
     
     .button-grid {
-        gap: 0.4rem;
+        display: block;
         padding: 0.7rem;
     }
 }
@@ -203,14 +203,15 @@ body {
     }
     
     .OperBtn {
-        width: 100%;
+        width: 4.5rem;
         height: 3.5rem;
         font-size: 20px;
-        margin: 0;
+        margin-left: 4px;
+        margin-top: 0.5rem;
     }
     
     .button-grid {
-        gap: 0.5rem;
+        display: block;
         padding: 0.8rem;
     }
 }
@@ -238,14 +239,15 @@ body {
     }
     
     .OperBtn {
-        width: 100%;
+        width: 5rem;
         height: 3.8rem;
         font-size: 22px;
-        margin: 0;
+        margin-left: 5px;
+        margin-top: 0.6rem;
     }
     
     .button-grid {
-        gap: 0.6rem;
+        display: block;
         padding: 1rem;
     }
 }
